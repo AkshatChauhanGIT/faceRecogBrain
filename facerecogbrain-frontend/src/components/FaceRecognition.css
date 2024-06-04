@@ -1,0 +1,20 @@
+/*.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+/* .ma {
+  margin: auto;
+} */
+
+.relative {
+  position: relative;
+}
+
+.bounding-box {
+  position: absolute;
+  border: 2px solid #149df2; /* Example border style */
+  box-sizing: border-box;
+  z-index: 5; /* Ensure the bounding box appears above the image */
+}
